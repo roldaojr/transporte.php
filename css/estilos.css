@@ -1,0 +1,107 @@
+body {
+	font-family: Arial, helvetica, sans-serif;
+	margin: 0px;
+}
+a:link, a:visited {
+	color: #004400;
+}
+h1 {
+	margin: 0px;
+}
+.topo {
+	background-color: #eeffee;
+	min-height: 100px;
+	vertical-align: middle;
+}
+.topo > .logo {
+	padding-top: 25px;
+	padding-left: 10px;
+}
+.topo .imagem {
+	float: left;
+}
+.topo > .sessao {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	z-index: 3;
+}
+.topo .titulo {
+	display: block;
+	font-size: 1.2em;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: #003300;
+	z-index: 2;
+}
+.topo .fotos {
+	 position: absolute;
+	 top: 0px;
+	 width: 100%;
+	 margin-left: 150px;
+	 margin-right: 50px;
+	 z-index: 1;
+}
+.alt {
+	background-color: #eeffee;
+}
+#principal {
+	padding: 10px;
+}
+.mensagem {
+	background-color: #CCFFCC;
+	border-color: #003300;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+	padding: 3px;
+	margin: 5px;
+}
+/*
+ * Menu
+ */
+#menu {
+	background-color: #008800;
+	color: white;
+	display: block;
+}
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#menu ul li {
+	cursor: pointer;
+	display: inline;
+	position: relative;
+}
+#menu li > a {
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+}
+#menu > ul > li {
+	padding-left: 5px;
+}
+#menu li ul {
+	background-color: #008800;
+	position: absolute;
+	padding: 0px;
+	left: 0px;
+	width: 200px;
+	display: none;
+}
+#menu li ul li a {
+	display: block;
+	padding: 4px 10px 4px 10px;
+}
+#menu li ul li a:hover {
+	background-color: #30ac30;
+}
+#menu li:hover ul {
+	display: block;
+}
+
+.relatorio table td {
+  border-right: 
+}
